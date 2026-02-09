@@ -42,10 +42,6 @@ const GridBackground = () => {
 };
 
 export default function Hero() {
-  // #region agent log
-  fetch('http://127.0.0.1:7246/ingest/31f451e7-0f87-471c-80fa-d2ba26002939',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({location:'Hero.jsx:46',message:'Hero component rendering',data:{url:window.location.href},timestamp:Date.now(),hypothesisId:'H4'})}).catch(()=>{});
-  // #endregion
-
   const words = [
     "Full Stack / E-commerce Developer",
     "Shopify Specialist & Production Owner",

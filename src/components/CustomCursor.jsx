@@ -33,7 +33,7 @@ export default function CustomCursor() {
   }, []);
 
   return (
-    <>
+    <div className="hidden md:block">
       {/* Main cursor dot */}
       <motion.div
         className="fixed top-0 left-0 pointer-events-none z-[9999] mix-blend-difference"
@@ -87,6 +87,6 @@ export default function CustomCursor() {
       >
         <div className="w-[60px] h-[60px] bg-gradient-to-r from-blue-500/20 via-purple-500/20 to-teal-500/20 rounded-full blur-xl" />
       </motion.div>
-    </>
+    </div>
   );
 }
